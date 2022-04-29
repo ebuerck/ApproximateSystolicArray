@@ -33,3 +33,16 @@
   - Creates an Array of PE's and gives Matrices
 - TestBench
   - Used to Test and validate results
+- Approx2x2MultiLit
+  - Does the basic Approx Multiplication
+- Approx4x4MultiLit
+  - Uses 2x2 to create 4x4 Approx Multiplier
+- Approx 8x8MultiLit
+  - Uses 4x4 to create 8x8 Approx Multiplier
+
+## Simulation Instructions
+- A project in Vivado needs to be created including all The Files
+- Run Behavioral Simulation ensuring that TestBench is the top module
+- Observe the Wave
+- To Simulate Remove TestBench file from project and then run simulation
+  - Make sure Matrix_top is the top module
